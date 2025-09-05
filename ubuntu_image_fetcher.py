@@ -102,7 +102,7 @@ def main():
     print("🖼️  Welcome to the Multi-Page Image Crawler")
     print("Paste a website URL (e.g., Unsplash, Pinterest, Pexels) and I’ll fetch images across multiple pages.\n")
 
-    urls_input = input("Enter website URLs (comma separated): ")
+    urls_input = input("https://unsplash.com/, https://www.pexels.com/, https://pixabay.com/, https://www.pinterest.com/:")
     websites = [url.strip() for url in urls_input.split(",") if url.strip()]
 
     if not websites:
